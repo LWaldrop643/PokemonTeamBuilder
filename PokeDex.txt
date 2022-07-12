@@ -1,0 +1,27 @@
+000 MissingNo
+Glitch
+N/A N/A
+0 0 0 0 0 0
+0'0"
+0.0
+
+001 Bulbasaur
+Seed
+GRASS POISON
+45 49 49 65 65 45
+2'4"
+15.2
+
+002 Ivysaur
+Seed
+GRASS POISON
+60 62 63 80 80 60
+3'03"
+28.7
+
+003 Venusaur
+Seed
+GRASS POISON
+80 82 83 100 100 80
+6'07"
+220.5
