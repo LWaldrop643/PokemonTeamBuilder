@@ -16,8 +16,64 @@ string TypeTToString(TypeT type){
 	string result;
 
 	//run
-	switch (type) {
-
+	switch(type){
+		case TypeT::NORMAL:
+			result = "NORMAL";
+			break;
+		case TypeT::FIRE:
+			result = "FIRE";
+			break;
+		case TypeT::WATER:
+			result = "WATER";
+			break;
+		case TypeT::GRASS:
+			result = "GRASS";
+			break;
+		case TypeT::ELECTRIC:
+			result = "ELECTRIC";
+			break;
+		case TypeT::ICE:
+			result = "ICE";
+			break;
+		case TypeT::FIGHTING:
+			result = "FIGHTING";
+			break;
+		case TypeT::POISON:
+			result = "POISON";
+			break;
+		case TypeT::GROUND:
+			result = "GROUND";
+			break;
+		case TypeT::FLYING:
+			result = "FLYING";
+			break;
+		case TypeT::PSYCHIC:
+			result = "PSYCHIC";
+			break;
+		case TypeT::BUG:
+			result = "BUG";
+			break;
+		case TypeT::ROCK:
+			result = "ROCK";
+			break;
+		case TypeT::GHOST:
+			result = "GHOST";
+			break;
+		case TypeT::DARK:
+			result = "DARK";
+			break;
+		case TypeT::DRAGON:
+			result = "DRAGON";
+			break;
+		case TypeT::STEEL:
+			result = "STEEL";
+			break;
+		case TypeT::FAIRY:
+			result = "FAIRY";
+			break;
+		default:
+			result = "NA";
+			break;
 	}
 
 	//exit
