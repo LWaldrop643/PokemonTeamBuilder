@@ -1,13 +1,12 @@
 Pokémon Team Builder (PTB)
-v0.1
-02.19.24
+v0.1.1
+03.03.24
 ==========================
 
 Changelog:
-	- created template for main.cpp
-	- created PokemonT.h and labelled private variables
-	- created TypeT.h and filled enum
-	- created NatureT.h and filled enum
+	- added "NA" error value for NatureT and TypeT
+	- finished string_To_TypeT and TypeT_To_string
+	- finished string_To_NatureT and NatureT_To_string
 	
 Future Plans:
 	- create set + get variables for all classes

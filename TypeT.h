@@ -1,8 +1,8 @@
 /**
 *LWaldrop643
 *PTB - TypeT.h
-*v0.1
-*02.19.24
+*v0.1.1
+*03.03.24
 **/
 
 #pragma once
@@ -11,8 +11,8 @@
 #include <iostream>
 
 //enum
-enum class TypeT{NORMAL, FIRE, WATER, GRASS, ELECTRIC, ICE, FIGHTING, POISON, GROUND, FLYING, PSYCHIC, BUG, ROCK, GHOST, DRAGON, DARK, STEEL, FAIRY};
+enum class TypeT{NORMAL, FIRE, WATER, GRASS, ELECTRIC, ICE, FIGHTING, POISON, GROUND, FLYING, PSYCHIC, BUG, ROCK, GHOST, DRAGON, DARK, STEEL, FAIRY, NA};
 
 //functions
-TypeT string_To_TypeT(std::string);
-std::string TypeT_To_String(TypeT);
+TypeT string_To_TypeT(std::string type);
+std::string TypeT_To_String(TypeT type);

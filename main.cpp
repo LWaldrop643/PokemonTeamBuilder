@@ -16,7 +16,7 @@ using namespace std;
 int main(void){
 	//variables
 
-	//code
+	//run
 
 	//exit
 	return 0;
